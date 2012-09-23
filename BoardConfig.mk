@@ -28,7 +28,7 @@ TARGET_KERNEL_CONFIG := cyanogenmod_i777_defconfig
 TARGET_SPECIFIC_HEADER_PATH += device/samsung/i777/overlay/include
 
 # assert
-TARGET_OTA_ASSERT_DEVICE := i777,SGH-I777
+TARGET_OTA_ASSERT_DEVICE := i777,SGH-I777,GT-I9100,i9100
 
 # Use the non-open-source parts, if they're present
 -include vendor/samsung/i777/BoardConfigVendor.mk
